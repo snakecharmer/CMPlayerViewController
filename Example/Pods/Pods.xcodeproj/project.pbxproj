@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC0A585947323E22B4F8202B69EC27A /* CMPlayerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3B3CF3175E70A79D4B341B3D52CE05 /* CMPlayerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399564487A12AC90FF8A1699694776DE /* CMPlayerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCFD7E536283E06157837F3F7656146 /* CMPlayerViewController-dummy.m */; };
+		57852A6E7BD2660099FC0E49E57FC228 /* CMPlayerViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02B9862793F7C1F0A48455E3435A9DCB /* CMPlayerViewController.bundle */; };
+		B0C770271C9073A800025F94 /* CMPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C770261C9073A800025F94 /* CMPlayerViewController.swift */; };
+		B0C7702C1C9074C800025F94 /* CMPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C7702B1C9074C800025F94 /* CMPlayerViewController.xib */; };
+		B0C770301C90753200025F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C7702F1C90753200025F94 /* Assets.xcassets */; };
+		B7B82886F1D0E4F0FB28268A910934B8 /* Pods-CMPlayerViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 069932D8BBDFE9AD91F22B2D0FFDDA1F /* Pods-CMPlayerViewController_Example-dummy.m */; };
+		C9AD7ED966AB483F62ECD89625E0DB16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		E8A59C7C3AE8D8BF5E26E2A28E6292D1 /* Pods-CMPlayerViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5BB232A6E5F4F61686EE15EE3AE544 /* Pods-CMPlayerViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F069EE13D7DB88E9B620B8E1C1F6804E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		165D11CE5C6359FE9B2E74DC728827AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8D35D0A65E945D4ADD41D3E9E5E7C2;
+			remoteInfo = CMPlayerViewController;
+		};
+		1CAE0FBF9FCCB56787956D37BC132711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1FFFCF853FEC09BCF7B3C464A4EDD2;
+			remoteInfo = "CMPlayerViewController-CMPlayerViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B9862793F7C1F0A48455E3435A9DCB /* CMPlayerViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMPlayerViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		069932D8BBDFE9AD91F22B2D0FFDDA1F /* Pods-CMPlayerViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMPlayerViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		15192256C4B02988CAA18DC906511510 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166037E63DF87B6DFC1AA7478A151724 /* Pods-CMPlayerViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMPlayerViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2CCFD7E536283E06157837F3F7656146 /* CMPlayerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMPlayerViewController-dummy.m"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D3E929C704914CAAE442F8DA891DA7C /* Pods-CMPlayerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMPlayerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46BFE2885D7CEDB43FCC289DEE9E355B /* Pods-CMPlayerViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CMPlayerViewController_Example.modulemap"; sourceTree = "<group>"; };
+		517A7AF4DD68ED67CDF98A1F0D77D8A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5BB232A6E5F4F61686EE15EE3AE544 /* Pods-CMPlayerViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMPlayerViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		74C86600D82B2F8B4A71D20EE9EC7A77 /* Pods-CMPlayerViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMPlayerViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		82E251BAE47688DF760F6648A884A596 /* ResourceBundle-CMPlayerViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CMPlayerViewController-Info.plist"; sourceTree = "<group>"; };
+		888F332B67BC8AB49737BE93B7A0222F /* Pods-CMPlayerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMPlayerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93717A3B564025B5B9ECDCF03E904FC7 /* CMPlayerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CMPlayerViewController.modulemap; sourceTree = "<group>"; };
+		9E3B3CF3175E70A79D4B341B3D52CE05 /* CMPlayerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMPlayerViewController-umbrella.h"; sourceTree = "<group>"; };
+		B0C770261C9073A800025F94 /* CMPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPlayerViewController.swift; sourceTree = "<group>"; };
+		B0C7702B1C9074C800025F94 /* CMPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CMPlayerViewController.xib; path = Assets/CMPlayerViewController.xib; sourceTree = "<group>"; };
+		B0C7702F1C90753200025F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets/Assets.xcassets; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFFDF1B15FDA5AF3F4FD54B799A2CE23 /* CMPlayerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMPlayerViewController.xcconfig; sourceTree = "<group>"; };
+		C5D36641E1F3C251AB4FA52C94F54BB0 /* CMPlayerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMPlayerViewController-prefix.pch"; sourceTree = "<group>"; };
+		CC2AEDF19B44079D44A0417AAC2DF1EF /* Pods-CMPlayerViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMPlayerViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D289E1B6FF7495A617FF3B9C3A0CE5DA /* Pods-CMPlayerViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMPlayerViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E230035AE6B69A281ADAE4BAC06FBA21 /* Pods_CMPlayerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMPlayerViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AB11409AE2FAD6B882C55009E91587 /* CMPlayerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMPlayerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EF566C2DDC3503BA5F627AE38A2624F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F069EE13D7DB88E9B620B8E1C1F6804E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE52786AC3265118ABC4FEC34A88BE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AD7ED966AB483F62ECD89625E0DB16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63D76368CE0D2765EEC8304C558BECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3488539DB03C097DFEC92C8676DC812E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0C770261C9073A800025F94 /* CMPlayerViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3B4928C227222FB8FF4659BD5F584CBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93717A3B564025B5B9ECDCF03E904FC7 /* CMPlayerViewController.modulemap */,
+				BFFDF1B15FDA5AF3F4FD54B799A2CE23 /* CMPlayerViewController.xcconfig */,
+				2CCFD7E536283E06157837F3F7656146 /* CMPlayerViewController-dummy.m */,
+				C5D36641E1F3C251AB4FA52C94F54BB0 /* CMPlayerViewController-prefix.pch */,
+				9E3B3CF3175E70A79D4B341B3D52CE05 /* CMPlayerViewController-umbrella.h */,
+				517A7AF4DD68ED67CDF98A1F0D77D8A6 /* Info.plist */,
+				82E251BAE47688DF760F6648A884A596 /* ResourceBundle-CMPlayerViewController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CMPlayerViewController";
+			sourceTree = "<group>";
+		};
+		5B2257E14943E8F2C953AABA07197F24 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B0C770251C90738B00025F94 /* Assets */,
+				3488539DB03C097DFEC92C8676DC812E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				888A33705FDB9A22B134D1CFD46B0899 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EE48C078744D67EFB8E3B7CC35366A48 /* Products */,
+				FD0E33E5ADB2469469AABF43F5CB2190 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		888A33705FDB9A22B134D1CFD46B0899 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCAF6774A690595F29C3C26ADF1416C /* CMPlayerViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B0C770251C90738B00025F94 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B0C7702F1C90753200025F94 /* Assets.xcassets */,
+				B0C7702B1C9074C800025F94 /* CMPlayerViewController.xib */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8CDB9562EBC481EA40CD9170CE0EA29 /* Pods-CMPlayerViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				15192256C4B02988CAA18DC906511510 /* Info.plist */,
+				46BFE2885D7CEDB43FCC289DEE9E355B /* Pods-CMPlayerViewController_Example.modulemap */,
+				D289E1B6FF7495A617FF3B9C3A0CE5DA /* Pods-CMPlayerViewController_Example-acknowledgements.markdown */,
+				CC2AEDF19B44079D44A0417AAC2DF1EF /* Pods-CMPlayerViewController_Example-acknowledgements.plist */,
+				069932D8BBDFE9AD91F22B2D0FFDDA1F /* Pods-CMPlayerViewController_Example-dummy.m */,
+				166037E63DF87B6DFC1AA7478A151724 /* Pods-CMPlayerViewController_Example-frameworks.sh */,
+				74C86600D82B2F8B4A71D20EE9EC7A77 /* Pods-CMPlayerViewController_Example-resources.sh */,
+				5E5BB232A6E5F4F61686EE15EE3AE544 /* Pods-CMPlayerViewController_Example-umbrella.h */,
+				3D3E929C704914CAAE442F8DA891DA7C /* Pods-CMPlayerViewController_Example.debug.xcconfig */,
+				888F332B67BC8AB49737BE93B7A0222F /* Pods-CMPlayerViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-CMPlayerViewController_Example";
+			path = "Target Support Files/Pods-CMPlayerViewController_Example";
+			sourceTree = "<group>";
+		};
+		DDCAF6774A690595F29C3C26ADF1416C /* CMPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B2257E14943E8F2C953AABA07197F24 /* Pod */,
+				3B4928C227222FB8FF4659BD5F584CBC /* Support Files */,
+			);
+			name = CMPlayerViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EE48C078744D67EFB8E3B7CC35366A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B9862793F7C1F0A48455E3435A9DCB /* CMPlayerViewController.bundle */,
+				F1AB11409AE2FAD6B882C55009E91587 /* CMPlayerViewController.framework */,
+				E230035AE6B69A281ADAE4BAC06FBA21 /* Pods_CMPlayerViewController_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0E33E5ADB2469469AABF43F5CB2190 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8CDB9562EBC481EA40CD9170CE0EA29 /* Pods-CMPlayerViewController_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA72688554A7D7EDAE927D126AF258A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A59C7C3AE8D8BF5E26E2A28E6292D1 /* Pods-CMPlayerViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C130F4A3C1130C7781AA67693980FBBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC0A585947323E22B4F8202B69EC27A /* CMPlayerViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E1FFFCF853FEC09BCF7B3C464A4EDD2 /* CMPlayerViewController-CMPlayerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BB066F4E6627EAD8337D523174DF3D /* Build configuration list for PBXNativeTarget "CMPlayerViewController-CMPlayerViewController" */;
+			buildPhases = (
+				CD67233C53C2EA7FC8CE7030996533E5 /* Sources */,
+				E63D76368CE0D2765EEC8304C558BECA /* Frameworks */,
+				AD9F8758F33AB59C8167386E7EFBE18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CMPlayerViewController-CMPlayerViewController";
+			productName = "CMPlayerViewController-CMPlayerViewController";
+			productReference = 02B9862793F7C1F0A48455E3435A9DCB /* CMPlayerViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E643C03C119BA88FD31BB13BEC0070EC /* Pods-CMPlayerViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DFDA491AC88DBEDB208B0C2B96A262 /* Build configuration list for PBXNativeTarget "Pods-CMPlayerViewController_Example" */;
+			buildPhases = (
+				FE5C8056C56CB00E159DF7EBE0758EC0 /* Sources */,
+				BE52786AC3265118ABC4FEC34A88BE40 /* Frameworks */,
+				AA72688554A7D7EDAE927D126AF258A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D685E3827828719F7AC86F6308F3837 /* PBXTargetDependency */,
+			);
+			name = "Pods-CMPlayerViewController_Example";
+			productName = "Pods-CMPlayerViewController_Example";
+			productReference = E230035AE6B69A281ADAE4BAC06FBA21 /* Pods_CMPlayerViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA8D35D0A65E945D4ADD41D3E9E5E7C2 /* CMPlayerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14142038BDF5AFAB4272138ECAA5AF6F /* Build configuration list for PBXNativeTarget "CMPlayerViewController" */;
+			buildPhases = (
+				2D2368AB278E26C3DC6E26A4E69335E3 /* Sources */,
+				8EF566C2DDC3503BA5F627AE38A2624F /* Frameworks */,
+				2D7FBEF665121C4C336841E1559F92E1 /* Resources */,
+				C130F4A3C1130C7781AA67693980FBBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A482387FA31488E756E61E4B64D3A7C4 /* PBXTargetDependency */,
+			);
+			name = CMPlayerViewController;
+			productName = CMPlayerViewController;
+			productReference = F1AB11409AE2FAD6B882C55009E91587 /* CMPlayerViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE48C078744D67EFB8E3B7CC35366A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8D35D0A65E945D4ADD41D3E9E5E7C2 /* CMPlayerViewController */,
+				5E1FFFCF853FEC09BCF7B3C464A4EDD2 /* CMPlayerViewController-CMPlayerViewController */,
+				E643C03C119BA88FD31BB13BEC0070EC /* Pods-CMPlayerViewController_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D7FBEF665121C4C336841E1559F92E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57852A6E7BD2660099FC0E49E57FC228 /* CMPlayerViewController.bundle in Resources */,
+				B0C770301C90753200025F94 /* Assets.xcassets in Resources */,
+				B0C7702C1C9074C800025F94 /* CMPlayerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9F8758F33AB59C8167386E7EFBE18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2368AB278E26C3DC6E26A4E69335E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C770271C9073A800025F94 /* CMPlayerViewController.swift in Sources */,
+				399564487A12AC90FF8A1699694776DE /* CMPlayerViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD67233C53C2EA7FC8CE7030996533E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5C8056C56CB00E159DF7EBE0758EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B82886F1D0E4F0FB28268A910934B8 /* Pods-CMPlayerViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D685E3827828719F7AC86F6308F3837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CMPlayerViewController;
+			target = FA8D35D0A65E945D4ADD41D3E9E5E7C2 /* CMPlayerViewController */;
+			targetProxy = 165D11CE5C6359FE9B2E74DC728827AF /* PBXContainerItemProxy */;
+		};
+		A482387FA31488E756E61E4B64D3A7C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CMPlayerViewController-CMPlayerViewController";
+			target = 5E1FFFCF853FEC09BCF7B3C464A4EDD2 /* CMPlayerViewController-CMPlayerViewController */;
+			targetProxy = 1CAE0FBF9FCCB56787956D37BC132711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		372FF5048FF42C3A7A18B70A30D785C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A6CA883C841567156AA5C51D1E25CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3E929C704914CAAE442F8DA891DA7C /* Pods-CMPlayerViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CMPlayerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMPlayerViewController_Example/Pods-CMPlayerViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CMPlayerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		613474ED578FDC0CDE1819001CAFBF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFDF1B15FDA5AF3F4FD54B799A2CE23 /* CMPlayerViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CMPlayerViewController/ResourceBundle-CMPlayerViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CMPlayerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		70F0378D63DE3D2DCC739550669BD46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7A18C061810E2F3DB0DF77AA75EAE4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFDF1B15FDA5AF3F4FD54B799A2CE23 /* CMPlayerViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CMPlayerViewController/CMPlayerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMPlayerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMPlayerViewController/CMPlayerViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CMPlayerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86AC9C85847E7F26C51F5D99245160B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888F332B67BC8AB49737BE93B7A0222F /* Pods-CMPlayerViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CMPlayerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMPlayerViewController_Example/Pods-CMPlayerViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CMPlayerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB0EFF03F3FD7F04E6ED6AA53DB97EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFDF1B15FDA5AF3F4FD54B799A2CE23 /* CMPlayerViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CMPlayerViewController/CMPlayerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMPlayerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMPlayerViewController/CMPlayerViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CMPlayerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1CAC4635177106D35D9DFE64F465854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFDF1B15FDA5AF3F4FD54B799A2CE23 /* CMPlayerViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CMPlayerViewController/ResourceBundle-CMPlayerViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CMPlayerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14142038BDF5AFAB4272138ECAA5AF6F /* Build configuration list for PBXNativeTarget "CMPlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A18C061810E2F3DB0DF77AA75EAE4EA /* Debug */,
+				CB0EFF03F3FD7F04E6ED6AA53DB97EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F0378D63DE3D2DCC739550669BD46A /* Debug */,
+				372FF5048FF42C3A7A18B70A30D785C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DFDA491AC88DBEDB208B0C2B96A262 /* Build configuration list for PBXNativeTarget "Pods-CMPlayerViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6CA883C841567156AA5C51D1E25CCF /* Debug */,
+				86AC9C85847E7F26C51F5D99245160B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BB066F4E6627EAD8337D523174DF3D /* Build configuration list for PBXNativeTarget "CMPlayerViewController-CMPlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613474ED578FDC0CDE1819001CAFBF26 /* Debug */,
+				D1CAC4635177106D35D9DFE64F465854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

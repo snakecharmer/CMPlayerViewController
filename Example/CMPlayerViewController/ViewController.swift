@@ -2,23 +2,39 @@
 //  ViewController.swift
 //  CMPlayerViewController
 //
-//  Created by Célian Moutafis on 03/09/2016.
-//  Copyright (c) 2016 Célian Moutafis. All rights reserved.
+//  Created by Célian MOUTAFIS on 09/03/2016.
+//  Copyright © 2016 mouce. All rights reserved.
 //
 
 import UIKit
+import AVFoundation
+import CMPlayerViewController
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+/**
+ Sample View Controller
+ */
+class ViewController: UIViewController, CMPlayerViewControllerDelegate {
+    
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        let player = CMPlayerViewController(url: "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/hls_vod_mvp.m3u8");
+        player.delegate = self
+        self.presentViewController(player, animated: true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func prefereSubtitleMediaOption(options: [AVMediaSelectionOption]?) -> AVMediaSelectionOption? {
+        
+        if options != nil {
+            for opt in options! {
+                if (opt.locale?.localeIdentifier == "en"){
+                    return opt
+                }
+            }
+        }
+        return nil
     }
-
+    
 }
+
 

@@ -1,0 +1,16 @@
+PODS:
+  - CMPlayerViewController (0.1.0)
+
+DEPENDENCIES:
+  - CMPlayerViewController (from `../`)
+
+EXTERNAL SOURCES:
+  CMPlayerViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMPlayerViewController: 73985c6edcbf1ff48eb20ae6bd3bffe97d156779
+
+PODFILE CHECKSUM: 955089c4e3de4db549408bb6a6c300169bcfa1bd
+
+COCOAPODS: 1.0.0.beta.2

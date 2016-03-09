@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028DBE83E89B73FAE642FD29 /* Pods_CMPlayerViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0B105AEADF5C7F2EFC9C69 /* Pods_CMPlayerViewController_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		204E193F9F86D2514B0E5DC2 /* Pods-CMPlayerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPlayerViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMPlayerViewController_Example/Pods-CMPlayerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D0B105AEADF5C7F2EFC9C69 /* Pods_CMPlayerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMPlayerViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E83AE15B694137822E42B6F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CMPlayerViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMPlayerViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,8 +40,9 @@
 		607FACE51AFB9204008FA782 /* CMPlayerViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMPlayerViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		96F4CC8B742A1A8557280552 /* CMPlayerViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CMPlayerViewController.podspec; path = ../CMPlayerViewController.podspec; sourceTree = "<group>"; };
-		E1E6111824FECEA7B40709F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		96F4CC8B742A1A8557280552 /* CMPlayerViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CMPlayerViewController.podspec; path = ../CMPlayerViewController.podspec; sourceTree = "<group>"; };
+		AD2DC2D0C3A571A3F0483B60 /* Pods-CMPlayerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPlayerViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMPlayerViewController_Example/Pods-CMPlayerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1E6111824FECEA7B40709F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028DBE83E89B73FAE642FD29 /* Pods_CMPlayerViewController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,8 @@
 				607FACD21AFB9204008FA782 /* Example for CMPlayerViewController */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				BB3580A74CFBEE6903F1C5F2 /* Pods */,
+				D2A05A55DEDC3BFE4C03F0C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +134,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		BB3580A74CFBEE6903F1C5F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				204E193F9F86D2514B0E5DC2 /* Pods-CMPlayerViewController_Example.debug.xcconfig */,
+				AD2DC2D0C3A571A3F0483B60 /* Pods-CMPlayerViewController_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2A05A55DEDC3BFE4C03F0C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0B105AEADF5C7F2EFC9C69 /* Pods_CMPlayerViewController_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CMPlayerViewController_Example" */;
 			buildPhases = (
+				60F5D678EE3960E417575F5F /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				50B76B5F99BFFB85447596B3 /* Embed Pods Frameworks */,
+				A1CFA1B74164D13DF9C3531C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CMPlayerViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,6 +249,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50B76B5F99BFFB85447596B3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMPlayerViewController_Example/Pods-CMPlayerViewController_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F5D678EE3960E417575F5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CFA1B74164D13DF9C3531C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMPlayerViewController_Example/Pods-CMPlayerViewController_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -355,6 +430,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204E193F9F86D2514B0E5DC2 /* Pods-CMPlayerViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CMPlayerViewController/Info.plist;
@@ -367,6 +443,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2DC2D0C3A571A3F0483B60 /* Pods-CMPlayerViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CMPlayerViewController/Info.plist;
@@ -416,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CMPlayerViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,

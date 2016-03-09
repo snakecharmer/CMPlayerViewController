@@ -1,0 +1,6 @@
+framework module CMPlayerViewController {
+  umbrella header "CMPlayerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
