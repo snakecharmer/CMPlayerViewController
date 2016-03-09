@@ -13,6 +13,7 @@
 		B0B6A9341C8F0D28003BA5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B6A9331C8F0D28003BA5F9 /* Assets.xcassets */; };
 		B0B6A9371C8F0D28003BA5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B6A9351C8F0D28003BA5F9 /* LaunchScreen.storyboard */; };
 		B0B6A93F1C8F139C003BA5F9 /* CMPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B6A93E1C8F139C003BA5F9 /* CMPlayerViewController.xib */; };
+		B0C770241C906F6B00025F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C770231C906F6B00025F94 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B0B6A9361C8F0D28003BA5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B6A9381C8F0D28003BA5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B6A93E1C8F139C003BA5F9 /* CMPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMPlayerViewController.xib; sourceTree = "<group>"; };
+		B0C770231C906F6B00025F94 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B0B6A92C1C8F0D28003BA5F9 /* AppDelegate.swift */,
 				B0B6A92E1C8F0D28003BA5F9 /* CMPlayerViewController.swift */,
 				B0B6A93E1C8F139C003BA5F9 /* CMPlayerViewController.xib */,
+				B0C770231C906F6B00025F94 /* ViewController.swift */,
 				B0B6A9301C8F0D28003BA5F9 /* Main.storyboard */,
 				B0B6A9331C8F0D28003BA5F9 /* Assets.xcassets */,
 				B0B6A9351C8F0D28003BA5F9 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C770241C906F6B00025F94 /* ViewController.swift in Sources */,
 				B0B6A92F1C8F0D28003BA5F9 /* CMPlayerViewController.swift in Sources */,
 				B0B6A92D1C8F0D28003BA5F9 /* AppDelegate.swift in Sources */,
 			);

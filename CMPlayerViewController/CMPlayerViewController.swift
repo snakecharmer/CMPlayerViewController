@@ -24,40 +24,6 @@ protocol CMPlayerViewControllerDelegate {
 }
 
 /**
- Sample View Controller
- */
-class ViewController: UIViewController, CMPlayerViewControllerDelegate {
-
-
-    override func viewDidAppear(animated: Bool) {
-        
-        let player = CMPlayerViewController(url: "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/hls_vod_mvp.m3u8");
-        player.delegate = self
-        self.presentViewController(player, animated: true, completion: nil)
-    }
-    
-    func prefereSubtitleMediaOption(options: [AVMediaSelectionOption]?) -> AVMediaSelectionOption? {
-        
-        if options != nil {
-            for opt in options! {
-                if (opt.locale?.localeIdentifier == "en"){
-                    return opt
-                }
-            }
-        }
-        return nil
-    }
-
-}
-
-
-extension Int {
-    func format(f: String) -> String {
-        return String(format: "%\(f)d", self)
-    }
-}
-
-/**
  CMPlayerViewController is a convenient view controller to use AVPlayer in a view controller. It looks like AVPlayerViewController but it is fully customizable ans works on iOS 7
  */
 class CMPlayerViewController : UIViewController {
@@ -195,7 +161,7 @@ class CMPlayerViewController : UIViewController {
     }
     
     /** Update periodycally the timer labels */
-    private func updateTimerLabels() {
+    func updateTimerLabels() {
         
         let elapsed = self.player!.currentTime().seconds
         let total = self.player!.currentItem!.duration.seconds
@@ -302,3 +268,11 @@ class CMPlayerViewController : UIViewController {
     }
   
 }
+
+
+extension Int {
+    func format(f: String) -> String {
+        return String(format: "%\(f)d", self)
+    }
+}
+
